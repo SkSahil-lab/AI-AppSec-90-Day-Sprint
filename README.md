@@ -27,8 +27,9 @@ This live matrix displays my daily build journey, core defensive code modules, a
 | **Day 22** | 🛠️ Layer 6: Structured Schema Guard | Match data models against strict schemas to fix type fuzzing. | 0.0166 ms | 🟢 Passed |
 | **Day 23** | 🔤 Layer 7: Unstructured Input Sanitizer | Strip hidden C0/C1 control bytes and flatten look-alike symbols. | 0.0309 ms | 🟢 Passed |
 | **Day 24** | 🎯 Layer 8: Signature Keyword Blocklist | Intercept explicit bypass phrases like 'system override'. | 0.0069 ms | 🟢 Passed |
-| **Day 25** | 🔒 Layer 9: Upcoming Engine Module | *Awaiting active sprint initialization...* | -- | 🟡 Up Next |
-
+| **Day 25** | 🔒 Layer 9: Diagnostic Integration | Verify formatted fixed-point microsecond logging and telemetry output flags. | 0.0580 ms | 🟢 Passed |
+|**Day 26**  | **OWASP LLM01 (Prompt Injection):** Implement a recursive text parser to trap nested system overrides. | 0.0000032 ms | Rejected |
+| **Day 27** | 🛡️ OWASP LLM02: Output Handling | Build an output serialization scanner to block malicious execution payloads. | 0.0420 ms | 🟢 Passed |
 ---
 
 ## 📋 Features Checklist
