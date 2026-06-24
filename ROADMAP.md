@@ -35,8 +35,8 @@ This tracker details the exact daily development tasks, target vulnerabilities, 
 
 
 ### 🧠 Phase 2: Targeted OWASP Top 10 Core Defense Suite (Days 26 - 55)
--  [x] **Day 26:** **OWASP LLM01 (Prompt Injection):** Implement a recursive text parser to trap nested system overrides.
-- [ ] **Day 27:** **OWASP LLM02 (Insecure Output Handling):** Build an output serialization scanner to block malicious execution payloads.
+- [x] **Day 26:** **OWASP LLM01 (Prompt Injection):** Implement a recursive text parser to trap nested system overrides.
+- [x] **Day 27:** **OWASP LLM02 (Insecure Output Handling):** Build an output serialization scanner to block malicious execution payloads.
 - [ ] **Day 28:** **OWASP LLM03 (Training Data Poisoning):** Create a hashing gate to audit data ingest streams against dirty datasets.
 - [ ] **Day 29:** **OWASP LLM04 (Model Denial of Service):** Configure an active token bucket rate-shaper to prevent thread-exhaustion.
 - [ ] **Day 30:** **OWASP LLM05 (Insecure Plugin Design):** Engineer a strict parameters-whitelist schema filter for outgoing tool calls.
