@@ -18,7 +18,6 @@ class PromptInjectionParser:
         normalized_text = input_text.lower().strip()
         
         if current_depth > max_depth:
-            # FIX: Calculate latency before returning early
             execution_time = time.perf_counter() - start_time
             return {
                 "verdict": "REJECTED", 
@@ -28,7 +27,6 @@ class PromptInjectionParser:
 
         for signature in self.jailbreak_signatures:
             if signature in normalized_text:
-                # FIX: Calculate latency before returning early
                 execution_time = time.perf_counter() - start_time
                 return {
                     "verdict": "REJECTED", 
@@ -72,5 +70,5 @@ if __name__ == "__main__":
     """
     
     result = engine.parse_and_sanitize(malicious_payload)
-    print(f"\n📊 Diagnostic Sandbox Evaluation Result:")
+    print(f"\n Diagnostic Sandbox Evaluation Result:")
     print(json.dumps(result, indent=2, ensure_ascii=False))
